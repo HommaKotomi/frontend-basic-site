@@ -131,6 +131,9 @@ img {
 
 .about-container {
   padding: 0 40px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
@@ -156,6 +159,7 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  max-width: 800px;
 }
 
 .about-text {
@@ -186,9 +190,6 @@ h2 {
     justify-content: center;
   }
   .about-img {
-    display: none;
-  }
-  .br {
     display: none;
   }
 }
